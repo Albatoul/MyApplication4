@@ -4,4 +4,9 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="Musturd">#ebbe00</color>
+    <color name="Progressbar">#cdf0d0</color>
+    <color name="purble">#7335ff</color>
+
+
+
 </resources>

@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main3Activity"
-    android:background="@drawable/background">
+    android:background="@drawable/background1"
+    >
+
 
     <TextView
         android:id="@+id/textView5"
@@ -14,6 +16,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/changa"
         android:text="قبل البدء بالمهمة، عليك التعرف أولاً على ماذا تعني  "
         android:textColor="@android:color/white"
         android:textSize="13sp"
@@ -31,7 +34,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="1dp"
         android:src="@drawable/labeb222"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,9 +66,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/changa"
         android:text="البرمجة ؟"
         android:textColor="@color/Musturd"
-        android:textSize="15sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"

@@ -3,6 +3,7 @@ package com.example.albatoul.myapplication;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -13,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button ebdabtn=(Button)findViewById(R.id.ebdabtn);
+        Button ebdabtn= findViewById(R.id.ebdabtn);
 
         final Intent next=new Intent(getApplicationContext(),Main2Activity.class);
 
@@ -27,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (txt4.getText().toString().isEmpty())
-                    txt4.setError("أدخل إسمك من فضلك");
+                    txt4.setError(Html.fromHtml("<font color='white'>أدخل إسمك من فضلك</font>"));
+
                 else
                 {
                     next.putExtra("com.example.albatoul.myapplication.Something", txt4.getText().toString()+"");

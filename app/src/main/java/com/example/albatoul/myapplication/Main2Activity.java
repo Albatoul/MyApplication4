@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 //bvjsvbslbvslvbslbvslvbsvbslrbgrgvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvdb/
 //nfvlnvlrkwvnlwkgne;bne;nbeknbkebne
+
+// the first test
 public class Main2Activity extends AppCompatActivity {
 
     @Override
